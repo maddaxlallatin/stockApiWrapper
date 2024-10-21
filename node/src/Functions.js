@@ -34,7 +34,4 @@ async function getEndpoint(url) {
     return await getEndpoint(url);
   }
 
-module.exports = getGainers;
-module.exports = getLosers;
-module.exports = getSectors;
-module.exports = getTrending; 
+  module.exports = {getGainers, getLosers, getSectors, getTrending};

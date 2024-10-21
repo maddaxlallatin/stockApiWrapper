@@ -35,7 +35,7 @@ class Stock {
     }
   
     async getAnaylstRecommendations(){
-      var url = `${this.baseURL}${this.ticker}/analyst_recommendations`
+      var url = `${this.baseURL}${this.ticker}/analyst-recommendations`
       return await this.getEndpoint(url);
     }
   
