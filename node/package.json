@@ -1,7 +1,7 @@
 {
-  "name": "stock_api_wrapper",
-  "version": "1.0.7",
-  "description": "wrapper for the stockAPI that I created",
+  "name": "yahoo-finance-wrapper",
+  "version": "1.0.13",
+  "description": "wrapper for the yahoo finance stockAPI that I created",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,19 @@
   "homepage": "https://github.com/maddaxlallatin/stockAPIWrapper#readme",
   "dependencies": {
     "axios": "^1.7.7"
-  }
+  },
+  "keywords": [
+    "stock",
+    "yahoo",
+    "finance",
+    "api",
+    "yahoo ",
+    "stock",
+    "wrapper",
+    "stock api",
+    "yahoo finance",
+    "yahoo finance api",
+    "stock api wrapper",
+    "yahoo finance wrapper"
+  ]
 }
