@@ -379,7 +379,8 @@ getStockInfo();
 <details>
   <summary>Sample Output</summary>
   
-```js{
+```js
+{
   topGainers: [
     {
       ticker: 'SOTDF',
