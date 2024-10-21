@@ -38,7 +38,7 @@ getStockInfo();
 <details>
   <summary>Sample Output</summary>
   
-```json
+```js
   {
   trendingStocks: [
     {
@@ -379,7 +379,7 @@ getStockInfo();
 <details>
   <summary>Sample Output</summary>
   
-```json{
+```js{
   topGainers: [
     {
       ticker: 'SOTDF',
@@ -718,7 +718,7 @@ getStockInfo();
 <details>
   <summary>Sample Output</summary>
   
-```json
+```js
   {
   topLosers: [
     {
@@ -1057,7 +1057,7 @@ getStockInfo();
 <details>
   <summary>Sample Output</summary>
   
-```json
+```js
   {
   sectors: [
     {
@@ -1130,7 +1130,7 @@ getStockInfo();
 `var stockPrice = await Stock.getPrice()`
 
 Sample Output
-```json
+```js
 {
   ticker: 'AAPL',
   price: '236.10',
@@ -1152,7 +1152,7 @@ endDate = "2024-10-21" //YYYY-MM-DD
 var stockPrice = await Stock.getHistory(startDate, endDate)
 ```
 Sample Output
-```json
+```js
 {
   ticker: 'AAPL',
   stockHistory: [
@@ -1177,7 +1177,7 @@ Sample Output
 `var stockNews = await Stock.getNews(1)`
 
 Sample Output:
-```json
+```js
 {
   ticker: 'AAPL',
   newsArticles: [
@@ -1194,7 +1194,7 @@ Sample Output:
 `var stockProfile = await Stock.getProfile()`
 
 Sample Output:
-```json
+```js
 {
   ticker: 'AAPL',
   company: 'Apple Inc.',
@@ -1211,7 +1211,7 @@ Sample Output:
 <details>
   <summary>Sample Output</summary>
   
-```json
+```js
 {
   ticker: 'AAPL',
   analystRecommendations: [
@@ -1315,7 +1315,7 @@ Sample Output:
 `var stockDividends = await Stock.getDividends()`
 
 Sample Output
-```json
+```js
 {
   ticker: 'AAPL',
   stockDividends: [
@@ -1343,7 +1343,7 @@ Sample Output
 <details>
   <summary>Sample Output</summary>
 
-```json
+```js
 
 {
   ticker: 'AAPL',
@@ -1870,7 +1870,7 @@ var cashFlow = false
 var stockFinancials = await Stock.getFinancials(incomeStatement, balanceSheet, cashFlow)`
 ```
 
-```
+```js
 stockFinancials: [
     {
       fiscalYear: '2023',
