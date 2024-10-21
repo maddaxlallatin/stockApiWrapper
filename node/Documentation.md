@@ -1870,7 +1870,7 @@ var cashFlow = false
 var stockFinancials = await Stock.getFinancials(incomeStatement, balanceSheet, cashFlow)`
 ```
 
-```json
+```
 stockFinancials: [
     {
       fiscalYear: '2023',
